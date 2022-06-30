@@ -1,0 +1,147 @@
+.navbar{
+  position: sticky;
+  top: 0;
+}
+a{
+  text-decoration: none;
+}
+.myrows{
+  border: 3px solid purple;
+  padding: 5px;
+}
+
+.mycols{
+  border: 3px solid rgb(12, 9, 9);
+  
+
+}
+.mycontainer{
+  background-color: rgb(255, 0, 0);
+  ;
+  
+}
+
+
+
+#topheader{
+  background-color: white;
+  border-bottom: 1px solid white;
+  padding: 4px;
+}
+
+#topheader a{
+  color: black;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+
+.container-fluid{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+/* Start Footer */
+
+.full-footer{
+  background-color: #243d4f;
+  
+}
+
+.top-footer p{
+  color: white;
+}
+
+.top-footer a{
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.bottom-fotter{
+  background-color: #031b2e;
+}
+.bottom-fotter p{
+  background-color: white;
+
+}
+
+/* End Footer */
+
+/* Start 1st Section */
+.top-hero-section{
+  background-color: #3498db;
+  color: white;
+}
+
+.top-hero-section a{
+  color: white;
+  font-weight: 600;
+}
+
+/* End 1st Section */
+
+
+
+/* Start 2nd Section */
+.qualities-img{
+  width: 200px;
+}
+
+/* End 2nd Section */
+
+.requirments-section{
+  color: white;
+  background-color: #004d80;
+}
+
+.home-newsletter{
+  background-color: #004d80;
+  color: white;
+}
+
+.home-newsletter .form-control{
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .btn{
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #243c4f;
+  color: #fff;
+}
+
+.clients-section{
+  background-color: #004d80;
+  color: white;
+}
+
+.breadcrumbs-section{
+  background-color: #e9ecef;
+}
+
+.bar{
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 17px;
+  border: 2px solid rgb(71, 76, 82);
+}
